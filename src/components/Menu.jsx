@@ -18,7 +18,7 @@ const Menu = ({ onStart }) => (
         </button>
         <button className={styles.menuButton} onClick={() => onStart(2)}>
           <FaRegClock />
-          Know the Title
+          100 songs in 10 minutes
         </button>
         <button className={styles.menuButton} onClick={() => onStart(3)}>
             <BsMusicNoteBeamed />
