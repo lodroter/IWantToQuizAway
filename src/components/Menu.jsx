@@ -8,7 +8,7 @@ import { BsMusicNoteBeamed } from 'react-icons/bs';
 const Menu = ({ onStart }) => (
   <div className={styles.menuContainer}>
     <div className={styles.menuCard}>
-      <h1 className={styles.title}>TuneTussle</h1>
+      <h1 className={styles.title}>I Want To Quiz Away</h1>
       <p className={styles.tagline}>How well do you know your music?</p>
 
       <div className={styles.buttonContainer}>

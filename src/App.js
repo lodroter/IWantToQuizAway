@@ -10,7 +10,7 @@ function App() {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-  fetch('/assets/songs.json')
+  fetch(process.env.PUBLIC_URL + '/assets/songs.json')
     .then(res => res.json())
     .then(data => setSongs(data))
     .catch(err => console.error("Error loading songs:", err));
