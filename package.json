@@ -2,7 +2,9 @@
   "name": "music-quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lodroter.github.io/iwanttoquizaway"
+  "homepage": "https://lodroter.github.io/iwanttoquizaway",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
