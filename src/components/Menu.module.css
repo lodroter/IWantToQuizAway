@@ -1,0 +1,67 @@
+/* This container reuses the style from the game for consistency */
+.menuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1c1b1b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+
+/* The central card for the menu options */
+.menuCard {
+  background-color: #282828;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px meditative 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  margin-bottom: 2.5rem;
+}
+
+/* A container to stack the buttons nicely */
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* This style is for our main menu buttons */
+.menuButton {
+  /* We can reuse some styles from the game's submit button */
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 500px; /* Pill shape */
+  border: none;
+  background-color: #1db954; /* Spotify Green */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  /* Flexbox to align the icon and text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem; /* Space between icon and text */
+}
+
+.menuButton:hover {
+  background-color: #1ed760;
+}

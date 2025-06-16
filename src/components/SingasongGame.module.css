@@ -1,0 +1,92 @@
+/* Container and Card are consistent with the rest of the app */
+.gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1c1b1b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+
+.gameCard {
+  background-color: #282828;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+/* New styles specific to this game */
+.statsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #a0a0a0;
+}
+
+.timer {
+  font-weight: bold;
+  color: #1db954; /* Spotify Green */
+}
+
+.songDisplay {
+  margin: 3rem 0;
+}
+
+.songTitle {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.songArtist {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+  margin-top: 0.5rem;
+}
+
+/* Button styles can be reused from GuessGame.module.css if you have a shared file,
+   or you can copy them here for simplicity */
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.submitButton {
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 500px;
+  border: none;
+  background-color: #1db954;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-width: 120px;
+}
+
+.submitButton:hover {
+  background-color: #1ed760;
+}
+
+.secondaryButton {
+  background-color: transparent;
+  border: 2px solid #535353;
+  color: #e0e0e0;
+}
+
+.secondaryButton:hover {
+  background-color: #333;
+}
