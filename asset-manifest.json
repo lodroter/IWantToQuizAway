@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/iwanttoquizaway/static/css/main.c4103d42.css",
+    "main.js": "/iwanttoquizaway/static/js/main.973565f6.js",
+    "static/js/453.06ad8c9e.chunk.js": "/iwanttoquizaway/static/js/453.06ad8c9e.chunk.js",
+    "index.html": "/iwanttoquizaway/index.html",
+    "main.c4103d42.css.map": "/iwanttoquizaway/static/css/main.c4103d42.css.map",
+    "main.973565f6.js.map": "/iwanttoquizaway/static/js/main.973565f6.js.map",
+    "453.06ad8c9e.chunk.js.map": "/iwanttoquizaway/static/js/453.06ad8c9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4103d42.css",
+    "static/js/main.973565f6.js"
+  ]
+}
