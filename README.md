@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# I Want To Quiz Away
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React app consisting of three music quiz games.  
+The data for the games is fetched from a JSON file, which itself is generated based on data retrieved from the Spotify API. The app does **not** directly query the Spotify API during gameplay.
 
-## Available Scripts
+## Games
 
-In the project directory, you can run:
+1. **Guess the Song**  
+   Guess the song title and artist from a short snippet.  
+   - You must write the full artist name (e.g., *Olivia Rodrigo* is correct, *Olivia* is incorrect).  
+   - If there are multiple artists, you don't need to list them all, but at least one full, correct artist name is required.
 
-### `npm start`
+2. **100 Songs in 10 Minutes**  
+   A recreation of the popular YouTube challenge by the React channel.  
+   - The goal is to sing 100 songs within 10 minutes.  
+   - For each song, click **Know** if you recognize it and can sing it, or **Skip** if you don’t.  
+   - The game ends when you reach 100 songs marked as known, or the 10-minute timer runs out.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Match the Snippet**  
+   You are given a song title and artist, plus 4 audio snippets.  
+   - Your task is to match the correct snippet with the given song and artist.  
+   - There is no time limit per question.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- React  
+- JSON as a data source (with pre-fetched Spotify data)  
+- HTML5 Audio for playing snippets  
+- CSS for styling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Improvements
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Add new games  
+- Expand the dataset
+- Clean and improve the existing data  
+- Add a database backend for better data management  
+- Add additional metadata that can’t be obtained from the Spotify API  
+- Improve UI/UX and responsiveness  
