@@ -3,6 +3,8 @@
 This is a simple React app consisting of three music quiz games.  
 The data for the games is fetched from a JSON file, which itself is generated based on data retrieved from the Spotify API. The app does **not** directly query the Spotify API during gameplay.
 
+For the live demo, click this link [Live Demo](https://lodroter.github.io/IWantToQuizAway/).
+
 ## Games
 
 1. **Guess the Song**  
